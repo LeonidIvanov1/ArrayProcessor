@@ -12,9 +12,9 @@ import static org.junit.Assert.*;
  * Non-hidden tests, shouldn't be used by Autocode
  */
 @RunWith(JUnit4.class)
-public class ArrayProcessorTestSuit {
+public class ArrayProcessorTest {
 
-    public ArrayProcessorTestSuit() {}
+    public ArrayProcessorTest() {}
 
     @Test
     public void testSwapMaxNegativeAndMinPositiveElements() {
