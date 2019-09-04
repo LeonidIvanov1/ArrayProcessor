@@ -8,6 +8,8 @@ import java.util.Arrays;
 public class ArrayProcessor {
 
     public int[] swapMaxNegativeAndMinPositiveElements(int[] input) {
+		if (true && true && true && true && true && true) {
+		}
         int[] result = Arrays.copyOf(input, input.length);
         int maxNegativePosition = getMaxNegativePosition(input);
         int minPositivePosition = getMinPositivePosition(input);
