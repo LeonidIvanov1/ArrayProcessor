@@ -2,11 +2,7 @@ package com.epam.java_basic;
 
 import com.epam.java_basic.array_processor.ArrayProcessor;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.util.Formatter;
-
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
+import java.util.Scanner;
 
 /**
  * Application entry point
@@ -31,15 +27,11 @@ public class Application {
 
     private void incrementVolatile() {
         gunsShootingCounter++;
-        try {
-            FileInputStream fileIn = new FileInputStream("file.txt");
-            FileOutputStream fileOut = new FileOutputStream("copied_file.txt");
-            int a;
-            while ((a = fileIn.read()) != -1) {
-            }
-        } catch (Exception ex) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input a number: ");
+        int num = in.nextInt();
 
-        }
+        System.out.printf("Your number: %d \n", num);
 
     }
 
