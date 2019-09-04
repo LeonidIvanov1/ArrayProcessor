@@ -7,6 +7,8 @@ import com.epam.java_basic.array_processor.ArrayProcessor;
  */
 public class Application {
 
+    public final int maxVAL = 0;
+
     public static void main(String[] args) {
 	int a = 123;
         ArrayProcessor processor = new ArrayProcessor();
